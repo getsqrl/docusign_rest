@@ -321,7 +321,7 @@ module DocusignRest
           recipientId:                           "#{index + 1}",
           requireIdLookup:                       false,
           roleName:                              signer[:role_name],
-          routingOrder:                          index + 1,
+          routingOrder:                          1,
           socialAuthentications:                 nil
         }
 
